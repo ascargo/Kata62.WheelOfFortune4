@@ -1,17 +1,10 @@
-# kata-wheel-fortune-3
+# kata-wheel-fortune-4
 
-Kata 61 per l'especialitat fullstackPHP 12-6-25
+This is my proposal of a solution for the Kata 62 per l'especialitat fullstackPHP 10-7-25
 
-En aquesta kata continuarem el que vem començar a la [kata relacionada anterior](https://github.com/CloudSalander/kata-wheel-fortune-2)
+Continuem amb la nostra particular versió de la "ruleta de la fortuna".
 
-Si la vas poder resoldre, fes servir el teu codi. Sino, pots fer servir el codi de la solució del mentor.
+En l'últim exercici vam implementar un sistema de punts i una ruleta. En aquest exercici volem que els/les concursants, no només puguin dir lletres del panell, sinó que a més podran tractar de resoldre
+el panell en cas de saber la resposta o, almenys, creure-ho :)
 
-En aquesta continuació el que volem és introduir un mecanisme de puntuació en el joc. Per això:
-
-- Abans de dir una lletra, el/la concursant ha de tirar la "ruleta de la fortuna". La ruleta pot tornar:
-  - Valors 25,50,100,250,500.
-  - Pèrdua torn: El torn passa al següent concursant.
-  - Fallida: Pèrdua de torn i puntuació a 0.
-- Si ha sortit algun valor en la tirada, llavors si, el/la concursant diu una lletra i s'afegeix tanta puntuació com el valor obtingut a la ruleta multiplicat per la quantitat de lletres trobades en el panel.
-- Si la lletra no està en el panel, es perd el torn.
-
+Podeu fer servir el vostre propi codi font o [el del vostre mentor](https://github.com/CloudSalander/kata-wheel-fortune-3).
