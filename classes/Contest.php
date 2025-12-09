@@ -13,6 +13,10 @@ class Contest
     public const WRONG_SOLUTION_MSG = "That was not the solution.";
     public const CORRECT_SOLUTION_MSG = "Correct! Panel solved.";
 
+    private int $turnNumber;
+    private FortuneWheel $wheel;
+    private int $currentContestantIndex;
+
     public function __construct(private Panel $panel, private array $contestants)
     {
         $this->turnNumber = 0;
